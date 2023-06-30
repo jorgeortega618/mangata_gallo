@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 10px 10px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  
+.engagement-article {
+    background-image: url("pictures/girl.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    color: rgb(15, 1, 1);
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2%;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: goldenrod;
+    color: black;
+}
+.promo {
+    background-color: lightgray;
+    opacity: 70%;
+    padding: 20px;
+    float: left;
+}
+.statement {
+    align-items: center; /* Vertically center the content */
+    background-color: antiquewhite;
+    color: black;
+    opacity: 70%;
+    padding-left: 10px;
+    height: 150px;
+    font-family: "Segoe Script";
+}
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
+
+.offers {
+    position: relative;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+.offers img {
+    width: 100%;
+    height: auto;  
+    display: flex;  
+}
+  
+.buttonpromo {
+    position: absolute;
+    bottom: 20px; /* Adjust the button's positioning as needed */
+    left: 50%; /* Align the button to the center horizontally */
+    transform: translateX(-50%); /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.buttonpromo:hover {
+    background-color: gold;
+    transform: scale(1.2);
+}
+
+
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
+footer > div > img {
+    width: 40%;
+    padding-top: 20px;
+}
